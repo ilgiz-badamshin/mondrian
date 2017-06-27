@@ -5585,6 +5585,7 @@ public class SchemaExplorer
                         // it.
                         theTableName = theTable.name;
                         schemaName = theTable.schema;
+                        break;
                     }
                 } else {
                     // otherwise continue down the join tree.
